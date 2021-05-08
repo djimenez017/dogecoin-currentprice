@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Trade+Winds&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+  width: 1000px;
+}
+
+body {
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 100px;
+  margin: 5px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+
+  height: 400px;
+  background: #131d2a;
+  padding: 20px;
+  border-radius: 20px;
+  border: #ff4654 solid 10px;
+}
+
+.img-container {
+  width: 70%;
+  display: flex;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.inner-container {
+  width: 100%;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 100px;
+}
