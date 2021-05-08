@@ -27,6 +27,7 @@
         let text = await response.json();
         let currentPrice = text.market_data.current_price.usd;
         priceText.innerHTML = `$${currentPrice}`;
+        console.log(currentPrice);
       }, 1000);
     </script>
   </body>
